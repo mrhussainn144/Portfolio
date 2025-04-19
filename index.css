@@ -1,0 +1,445 @@
+body,html{
+    background-color: #0F172A;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #F3F4F6;
+    font-family:Netflix Sans;
+    scroll-behavior: smooth;
+  
+}
+/*header*/
+.header{
+    background-color: #0F172A;
+    height: 2rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 2px solid whitesmoke ;
+   
+}
+
+.box1{
+    display: flex;
+    width: 40%;
+    gap: 15px;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo i{
+    font-size: 23px;
+}
+.name{
+    height: 40px;
+    width: 60px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: montserrat;
+    color: red;
+
+}
+.box2 a{
+    text-decoration: none;
+    color: #F3F4F6;
+    font-weight: 500 ;
+    font-size: 17px;
+}
+.box2{
+    
+    height: 40px;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+/*header*/
+
+
+
+
+/*Main Section*/
+.home-section{
+    
+    margin-left: 100px;
+    margin-top: 6rem;
+    height: 30rem;
+    width: 40rem;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+}
+
+
+.content{
+    
+    padding: 2rem;
+    height: 100%;
+    line-height: 30px;
+    word-spacing: 5px;
+}
+.heading{
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+}
+.heading span{
+    color: rgb(255, 255, 65);
+    font-weight: 700;
+    font-family:Montserrat;
+}
+.degree{
+    font-size: 35px;
+    font-weight: 700;
+   }
+    .main{
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    line-height: 3rem;
+   }
+   .others{
+    padding: 0rem 2rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+   }
+   .contactmeb{
+    padding: 0.5rem;
+    font-weight: 700;
+    border: none;
+    background-color: yellow;
+    color: #0F172A; 
+    border-radius: 3px;
+    transition: all 0.3s ease;
+    box-shadow: 
+        inset -2px -2px 20px black;
+   }
+   .projectsb{
+    padding: 0.5rem;
+    font-weight: 700;
+    border: none;
+    background-color: yellow;
+    color: #0F172A; 
+    border-radius: 3px;
+    transition: all 0.3s ease;
+    box-shadow: 
+    inset 4px 4px 6px black;
+   }
+   .projectsb a,.contactmeb a{
+    text-decoration: none;
+    color: #0F172A;
+   }
+   .contactmeb:hover,.projectsb:hover{
+    transform: scale(1.1);
+    background-color: white;
+    cursor: pointer;
+   }
+   /*main section*/
+ 
+
+
+
+   /*about-section*/
+ .about-section{
+    background-color: #F8FAFC;
+    height: 400px;
+    display: flex;
+    gap: 30px;
+
+ }
+ .aboutbox{
+   
+    width: 40rem;
+ 
+    margin-left: 5rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+ }
+ .atitle{
+    color: #0F172A;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2px;
+    position: relative;
+    width: 180px;
+ }
+ .atitle:after{
+    content: " ";
+    position: absolute;
+    height:3px;
+    background-color: #0F172A;
+    bottom: 0px;
+    left: 0px;
+    width: 50%;
+ }
+ .aboutme{
+    color: #1F2937;
+    font-size: 20px;
+    line-height: 2.5rem;
+    font-style: italic;
+    font-family:Open Sans;
+ }
+ .aboutimgbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .aboutimgbox img{
+    height: 25rem;
+    width: 25rem;
+ }
+ /*aboutsection*/
+
+
+ /*projects*/
+ #projects-section{
+    height: 600px;
+    background-color: #F8FAFC;
+ }
+/*projects*/
+
+
+
+/*skills*/
+#skills-section{
+    background-color: #F8FAFC;
+    height: 700px;
+}
+.stitle{
+    color: #0F172A;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2px;
+    position: relative;
+    width: 230px;
+ }
+ .stitle:after{
+    content: " ";
+    position: absolute;
+    height:3px;
+    background-color: #0F172A;
+    bottom: 0px;
+    left: 0px;
+    width: 50%;
+ }
+ .skillsbox{
+    margin-left:80px ;
+    padding: 2rem;
+ }
+ .cards{
+    margin-top: 3rem;
+    color: whitesmoke;
+    font-family: Montserrat;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
+ }
+ .html,.css,.js{
+    background-color:#0F172A;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 10px;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ .skillscontent{
+    color: #0F172A;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 300px;
+ }
+ .textcontent{
+    color: #1F2937;
+    font-size: 20px;
+    line-height: 2.5rem;
+    font-style: italic;
+    font-family:Open Sans;
+ }
+ .skillslist{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 20px;
+    height: 100%;
+    color: #000000;
+    font-size: 20px;
+    line-height: 2.5rem;
+    font-style: italic;
+    font-family:Open Sans;
+ }
+ .skillslist span{
+  color: #0F172A;
+  font-weight: 700;
+  margin-right: 10px;
+ }
+/*skills*/
+
+
+/*contact*/
+#contact-section{
+   background-color: #F8FAFC;
+   padding-left: 6.8rem;
+   color: #0F172A;
+   display: flex;
+   flex-direction: column;
+   height: 400px;
+  gap: 25px;
+}
+.ctitle{
+   color: #0F172A;
+   font-family: Montserrat;
+   font-weight: 700;
+   font-size: 30px;
+   letter-spacing: 2px;
+   position: relative;
+   width: 230px;
+}
+.ctitle:after{
+   content: " ";
+   position: absolute;
+   height:3px;
+   background-color: #0F172A;
+   bottom: 0px;
+   left: 0px;
+   width: 50%;
+}
+.links{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 300px;
+   justify-content: space-evenly;
+   margin-left: -112px;
+  
+}
+.logos{
+   display: flex;
+   width: 400px;
+   justify-content: space-evenly;
+   font-size: 2.5rem;
+   
+}
+.email{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-size: 1.2rem;
+   
+}
+.emailtext a{
+   text-decoration: none;
+   color: black;
+}
+.emailtext a:hover{
+   color: #0F172A;
+   text-decoration: underline;
+}
+.email .emaillogo{
+   font-size: 2rem;
+   
+}
+.logoc{
+   border: 2px solid #0F172A;
+   background-color: #0F172A;
+   width: 50px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 25px;
+   transition: all 0.3s ease;
+}
+.logoc:hover{
+   background-color: white;
+}
+.logoc:hover i{
+   
+   color: #0F172A;
+}
+.logos i{
+   color: #ffffff;
+   transition: all 0.3s ease;
+}
+.footer{
+   height: 200px;
+   background-color:  #0A0F2C;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.rights{
+   font-weight: 700;
+   font-size: large;
+}
+.links2{
+   display: flex;
+   width: 300px;
+   justify-content: space-evenly;
+}
+.links2 a{
+   text-decoration: none;
+   color: #F8FAFC;
+}
+.totop{
+   width:200px;
+   display: flex;
+   justify-content: center;
+}
+.totop button{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 5px; /* Space between text and symbol */
+   padding: 0.5rem;
+   font-weight: 700;
+   font-size: 1rem;
+   border: none;
+   background-color: #0F172A;
+   color: #F8FAFC;
+   cursor: pointer;
+   border-radius: 5px;
+   transition: all 0.3s ease;
+  
+}
+.totop button:hover{
+   color: yellow;
+   background-color: #0A0F2C;
+}
+.totop button span{
+font-size: 1.2rem;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+a{
+   text-decoration: none;
+  
+}
