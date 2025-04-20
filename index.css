@@ -4,7 +4,7 @@ body,html{
     padding: 0;
     box-sizing: border-box;
     color: #F3F4F6;
-    font-family:'Open Sans';
+    font-family:Montserrat;
     scroll-behavior: smooth;
   
 }
@@ -49,7 +49,7 @@ body,html{
     align-items: center;
     justify-content: center;
     font-family: montserrat;
-    color: red;
+    color: rgb(255, 0, 0);
 
 }
 .box2 a{
@@ -57,6 +57,9 @@ body,html{
     color: #F3F4F6;
     font-weight: 500 ;
     font-size: 17px;
+}
+.box2 a:hover{
+   color: #3b82f6;
 }
 .box2{
     
@@ -75,24 +78,31 @@ body,html{
 /*Main Section*/
 .home-section{
     
-    margin-left: 100px;
-    margin-top: 6rem;
-    height: 30rem;
-    width: 40rem;
-    padding: 5rem;
+   
+    height: 60vh;
+    width: 100%;
+    padding-top: 20vh;
+   
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    
+    align-items: center;
+    background-color: #e2e8f0;
+    color: #222222;
    
 }
 
 
 .content{
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 2rem;
     height: 100%;
     line-height: 30px;
-    word-spacing: 5px;
+    padding-bottom: 0;
+    padding-left: 112px;
+    padding-right: 112px;
 }
 .heading{
     letter-spacing: 2px;
@@ -101,7 +111,7 @@ body,html{
     margin-bottom: 1.2rem;
 }
 .heading span{
-    color: rgb(255, 255, 65);
+    color: #3b82f6;
     font-weight: 700;
     font-family:Montserrat;
 }
@@ -110,9 +120,10 @@ body,html{
     font-weight: 700;
    }
     .main{
-    font-size: 25px;
-    letter-spacing: 1.5px;
-    line-height: 3rem;
+    text-align: center;
+    width: 50%;
+   
+    
    }
    .others{
     padding: 0rem 2rem 2rem;
@@ -124,31 +135,29 @@ body,html{
     padding: 0.5rem;
     font-weight: 700;
     border: none;
-    background-color: yellow;
-    color: #0F172A; 
+    background-color: #3b82f6;
+     
     border-radius: 3px;
     transition: all 0.3s ease;
-    box-shadow: 
-        inset -2px -2px 20px black;
+   
    }
    .projectsb{
     padding: 0.5rem;
     font-weight: 700;
     border: none;
-    background-color: yellow;
-    color: #0F172A; 
+    background-color: #3b82f6;
+  
     border-radius: 3px;
     transition: all 0.3s ease;
-    box-shadow: 
-    inset 4px 4px 6px black;
+    
    }
    .projectsb a,.contactmeb a{
     text-decoration: none;
-    color: #0F172A;
+    color: whitesmoke;
    }
    .contactmeb:hover,.projectsb:hover{
-    transform: scale(1.1);
-    background-color: white;
+   
+    background-color: #3b83f69f;
     cursor: pointer;
    }
    /*main section*/
@@ -215,7 +224,7 @@ body,html{
  /*projects*/
  #projects-section{
     height: 600px;
-    background-color: #F8FAFC;
+    background-color: #e2e8f0;
  }
 /*projects*/
 
@@ -304,13 +313,14 @@ body,html{
 
 /*contact*/
 #contact-section{
-   background-color: #F8FAFC;
+   background-color: #e2e8f0;
    padding-left: 6.8rem;
+   padding-top: 2vw;
    color: #0F172A;
    display: flex;
    flex-direction: column;
    height: 400px;
-  gap: 25px;
+   gap: 25px;
 }
 .ctitle{
    color: #0F172A;
@@ -408,6 +418,9 @@ body,html{
    text-decoration: none;
    color: #F8FAFC;
 }
+.links2 a:hover{
+   color: #3b82f6;
+}
 .totop{
    width:200px;
    display: flex;
@@ -443,3 +456,5 @@ a{
    text-decoration: none;
   
 }
+
+
