@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,6 +31,7 @@
     />
   </head>
   <body>
+    <div class="cursor"></div>
     <header>
       <div class="header">
         <div class="box1">
@@ -192,5 +194,19 @@
   >Resume</a> </div>
   <div class="totop"><a href="#home-section"> <button>Back To Top</button></a></div>
     </div>
+
+
+
+    <script>
+       var cursor=document.querySelector(".cursor");
+       var body=document.querySelector("body");
+
+       document.addEventListener("mousemove",function(dets){
+          cursor.style.top=dets.y+"px";
+          cursor.style.left=dets.x+"px";
+       });
+
+       
+     </script> 
   </body>
 </html>

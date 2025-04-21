@@ -6,6 +6,8 @@ body,html{
     color: #F3F4F6;
     font-family:Montserrat;
     scroll-behavior: smooth;
+    
+   
   
 }
 /*header*/
@@ -457,4 +459,16 @@ a{
   
 }
 
-
+.cursor{
+   width: 10px;
+   height: 10px;
+   border-radius:50% ;
+   background-color: #0F172A;
+   position: fixed;
+   top:50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   z-index: 1000;
+   pointer-events: none;
+   transition: all 0.3 ease;
+}
