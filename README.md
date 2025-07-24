@@ -1,2 +1,2 @@
-A Simple Portfolio Website Made using react
+A Simple Portfolio Website Made using HTML and CSS
 
